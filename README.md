@@ -2,3 +2,7 @@
 
 # GIR
 ## Conceitos de versões
+
+
+ramificações de código
+
