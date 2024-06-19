@@ -1,4 +1,4 @@
-# curso-frontend
+# curso-frontend EBAC
 
 # GIR
 ## Conceitos de versões
