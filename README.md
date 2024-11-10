@@ -1,7 +1,7 @@
 # curso-frontend EBAC
 
-# GIR
+# MARIA CAROLINA
 ## Conceitos de versões
 
 
-ramificações de código
+Estudo Front-End com Github
