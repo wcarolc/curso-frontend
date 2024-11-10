@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/custom-form.css">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h1>Logo</h1>
+
+                </div>
+
+                <div class="col">
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h2>Sobre Nós</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repellat veritatis obcaecati aspernatur voluptatum, nisi maiores minus accusamus odio fugit quaerat voluptatem reiciendis vel magnam doloremque vitae? Minima, autem dolores?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repellat veritatis obcaecati aspernatur voluptatum, nisi maiores minus accusamus odio fugit quaerat voluptatem reiciendis vel magnam doloremque vitae? Minima, autem dolores?</p>
+                    <button type="button" class="btn btn-primary">Botão</button>
+                </div>
+
+                <div class="col-md-5 col-sm-12">
+                    <img src="./images/pexels-fauxels-3184454.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="produtos">
+        <div class="container">
+            <div class="row">
+
+                <div class="col">
+                    <h2>Produtos</h2>
+
+                    <div class="card">
+                        <img src="./images/pexels-fauxels-3184454.jpg" alt="Imagem exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Produto</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates tempora autem in. Porro exercitationem ipsam quaerat eaque accusantium vitae minus iste amet voluptas voluptates autem perspiciatis esse, temporibus consectetur praesentium!</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/pexels-fauxels-3184454.jpg" alt="Imagem exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Produto</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates tempora autem in. Porro exercitationem ipsam quaerat eaque accusantium vitae minus iste amet voluptas voluptates autem perspiciatis esse, temporibus consectetur praesentium!</p>
+                            <a class="btn btn-primary" href="#produto-link">ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/pexels-fauxels-3184454.jpg" alt="Imagem exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Produto</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates tempora autem in. Porro exercitationem ipsam quaerat eaque accusantium vitae minus iste amet voluptas voluptates autem perspiciatis esse, temporibus consectetur praesentium!</p>
+                            <a class="btn btn-primary" href="#produto-link">ver produto</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="cadastro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h2>Cadastro</h2>
+                <p>Faça seu cadastro para receber nossos produtos em casa.</p>
+
+                <form class="form">
+
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="nome" placeholder="digite seu nome" id="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="email" placeholder="digite seu e-mail" id="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Endereço Completo">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <label for="cidade">Cidade</label>
+                            <input type="text" class="form-control" name="cidade" id="cidade">
+                        </div>
+                        <div class="col">
+                            <label for="estado">Estado</label>
+                            <select name="estado" id="estado" class="form-control">
+                                <option value="">Selecione um estado</option>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                                <option value="EX">Estrangeiro</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <label for="cep">CEP</label>
+                            <input type="text" class="form-control" placeholder="CEP" id="cep">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="input-group">
+                            <label for="info" class="col-form-label-sm">Informações</label>
+                            <textarea class="form-control" name="" id="info" rows="10"></textarea>
+                        </div></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check">
+                                <input id="promo" type="checkbox" name="" id="">
+                                <label for="promo" class="form-check-label">Aceito receber mensagens promocionais.</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-lg btn-success">Realizar Cadastro</button>
+                </form>
+
+                <p>Cadastre-se na nossa <a href="#" data-bs-toggle="modal" data-bs-target="#modal-cadastro">newsletter</a></p>
+        </div>
+    </div>
+</section>
+
+
+    <div class="modal fade" id="modal-cadastro">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Inscrever-me na lista</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Preencha os campos para fazer parte da nossa newsletter</h6>
+
+                        <form class="form-inline">
+                            <input type="text" class="form-control mb-3" name="nome" placeholder="nome">
+                            <input type="text" class="form-control mb-3" name="e-mail" placeholder="email" required>
+                            <button type="submit" class="btn btn-success">Assinar a Newsletter</button>
+                        </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
