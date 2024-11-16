@@ -8,6 +8,23 @@
 <body>
 
     <div id="main"></div>
-    <script src="./exams.js" type="module"></script>
+    <div id="app"> Meu nome é {{ nome }}</div>
+
+    <!-- <script src="./exams.js" type="module"></script> -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <script>
+        const { createApp, ref } = Vue
+      
+        createApp({
+          setup() {
+            const nome = ref('Carol')
+            return {
+              nome
+            }
+          }
+        }).mount('#app')
+
+      </script>
 </body>
 </html>

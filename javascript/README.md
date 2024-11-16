@@ -28,11 +28,18 @@
     `let x = 0`
     `x = 'a'`
 
-
 - Arrays
-
-
 
 ## Export e Import
 
 - São recursos do EcmaScript Modules
+
+## TypeScript
+- boolean
+- string ('texto')
+- tuple
+
+## Frameworks
+- React
+- Vue
+- Angular

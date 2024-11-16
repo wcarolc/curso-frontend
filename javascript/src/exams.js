@@ -1,17 +1,17 @@
-import getMonths from './months.js';
+import getMonths from "./months.js";
 
-const monthsData = getMonths(); 
+const monthsData = getMonths();
 
 const filteredMonths = monthsData.filter((month) => {
-    return month.days === 30;
+  return month.days === 30;
 });
 
 console.log(filteredMonths);
 
-let toPrint = '';
+let toPrint = "";
 
-filteredMonths.forEach(month => {
-    toPrint += month.month + ', ';
+filteredMonths.forEach((month) => {
+  toPrint += month.month + ", ";
 });
 
-document.getElementById('main').innerHTML = toPrint.toString;
+document.getElementById("main").innerHTML = toPrint.toString;

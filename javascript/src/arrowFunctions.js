@@ -1,3 +1,5 @@
+"use strict"
+
 function Pessoa() {
 
     this.idade = 0
